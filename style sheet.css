@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.118);
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 8em;
+    width: 18em;
+    height: 14em;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.left h1{
+    color: #1877f2;
+}
+
+.left h3{
+    color: gray;
+    font-weight: 100;
+}
+
+.right{
+    margin-top: 9em;
+    box-shadow: -4px 4px 6px grey;
+    height: 26em;
+    /* width: 24em; */
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+}
+
+.right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 16em;
+    padding: 25px;
+}
+
+form input{
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 23em;
+    height: 3em;
+    border-radius: 6px;
+    border: gray solid 0.3px;
+}
+
+form .check{
+    display: inline-block;
+    width: 13px;
+    height: 19px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.show{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 155px;
+    padding-bottom: 10px;
+    color: #1877f2;
+    font-weight: 800;
+}
+
+form button{
+    padding: 11px;
+    margin-bottom: 15px;
+    width: 306px;
+    height: 35px;
+    border-radius: 6px;
+    border: gray solid 1px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+}
+
+.underlog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+
+}
+
+.underlog a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.underlog .forget {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+
+
+hr{
+    width: 18em;
+}
+
+.allright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underlog button {
+    height:48px ;
+    width: 185px;
+    margin:10px;
+    padding:15px;
+    color: #FFF;
+    background-color: #369423;
+    border: #369423 solid 1px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+.underright{
+    display: flex;
+    justify-content: space-between;
+    width: 22em;
+}
+
+.underright a{
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: 600;
+}
+
+@media screen and  (max-width:992px) {
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        padding-top: 0px;
+        height: 5em;
+
+    }
+
+    .right{
+        margin-top: 20px;
+    }
+    
+}

@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.118);
+    
+}
+.body{
+    display: flex;
+    align-items: center;
+    height: 73vh;
+    justify-content: center;
+}
+
+.midil{
+    background-color: white;
+    box-shadow: -4px 4px 6px gray; 
+}
+
+.form-hidder{
+    background-color: #1877f2;
+    color: white;
+    padding: 12px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+form{
+    color: #1877f2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around; 
+    font-weight: 600;
+}
+
+
+.first ,.last ,.emil ,.phone ,.password ,.confirm ,.date ,.date{
+    margin: 17px 10px;
+}
+
+p{
+    margin: 0 0 5px 0;
+}
+
+.start ,.second ,.third ,.forth ,.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 76px;
+}
+
+.start input ,.second input ,.third input ,.date input {
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 19em;
+    height: 35px;
+    border-radius: 6px;
+    border: gray solid 0.001px;
+    color: #11468b;
+    font-weight: 600;
+}
+
+{.start input ,.second input ,.third input ,.date input}::placeholder{
+    color : rgba(128, 128, 128, 0.707);
+}
+
+.male ,.female{
+    width: 17em;
+    height: 4px;
+    padding: 12px;
+}
+
+.gender p{
+    padding: 0 0 0 9px;
+}
+
+.gender label{
+    color: gray;
+}
+.buttum input {
+    color: white;
+    background-color: #145cb9;
+    height: 44px;
+    font-size: 19px;
+    width: 70px;
+    border: 2px solid #145cb9;
+    border-radius: 10px;
+}
+
+.buttum :nth-child(2) {
+    width: 90px;
+}
+
+
+
+
+@media screen and  (max-width:800px){
+
+    .start ,.second ,.third ,.forth ,.end{
+        display: flex;
+        flex-direction: column;
+        height: 194px;
+        justify-content: flex-start;
+    }
+    .body{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+}
+
