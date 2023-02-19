@@ -152,7 +152,7 @@ hr{
     font-weight: 600;
 }
 
-@media screen and  (max-width:992px) {
+@media screen and (min-width:558px) and (max-width:992px) {
 
     .body{
         display: flex;
@@ -169,4 +169,23 @@ hr{
         margin-top: 20px;
     }
     
+}
+
+@media screen and (max-width:558px){
+    .body{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+    .left{
+        padding-top: 0px;
+        height: 5em;
+
+    }
+
+    .right{
+        margin-top: 20px;
+    }
 }
